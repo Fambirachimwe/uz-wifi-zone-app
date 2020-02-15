@@ -1,0 +1,62 @@
+
+.btn-floating {
+    margin: 20px;
+}
+
+
+a.btn-floating {
+   
+   background: white;
+
+   i.material-icons {
+       color: #7b798d;
+   }
+   
+}
+
+.form {
+    // margin-top: 50px;
+    position: relative;
+    // height: 100vh;
+    margin: 30px 10px 0 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+    .title{ 
+        text-align: center;
+    }
+
+    button{
+        margin-top: 40px;
+        border: 0;
+        border-radius: 10px;
+    }
+    .signup-btn{
+        position: relative;
+        // top: 60vh;
+        left: 50%;
+        transform: translate(-50%);
+        width: 85vw;
+        padding: 20px;
+        background: #332F64;
+        background: -moz-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+        background: -webkit-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+        background: linear-gradient(to right, #332F64 0%, #a52bd1 100%);
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .link{
+        position: relative;
+        font-size: 12px;
+        font-weight: bold;
+        color: #7b798d;
+        text-align: center;
+
+        span{
+            color: blue;
+        }
+    }
+}

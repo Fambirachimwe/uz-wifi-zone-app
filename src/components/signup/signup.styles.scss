@@ -1,0 +1,64 @@
+.signup{
+    position: relative;
+    // height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+    .layout{
+        p.ca {
+            margin: 30px 0 2px 0;
+            
+            font-size: 13px;
+            font-weight: 600;
+            color: #7b798d;
+        }
+
+        h4.msg-banner{
+            margin-top: 14px;
+            font-weight: bolder;
+            font-size: 20px;
+            line-height: 2rem;
+
+            span {
+                display: inline-block;
+            }
+        }
+        img{
+            
+            position: relative;
+            overflow: hidden;
+            width: 150vw;
+            left: 50%;
+            transform: translate(-50%);
+            // height: 95vh;
+        }
+
+        button{
+            border: 0;
+            border-radius: 10px;
+        }
+        .signup-btn{
+            position: relative;
+            // top: 60vh;
+            left: 50%;
+            transform: translate(-50%);
+            width: 85vw;
+            padding: 20px;
+            background: #332F64;
+            background: -moz-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+            background: -webkit-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+            background: linear-gradient(to right, #332F64 0%, #a52bd1 100%);
+            color: #ffffff;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .terms{
+            position: relative;
+            text-align: center;
+
+        }
+    }
+
+}
