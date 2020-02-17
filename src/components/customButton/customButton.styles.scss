@@ -1,0 +1,22 @@
+button{
+    margin-top: 40px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.custom-btn{
+    position: relative;
+    // top: 60vh;
+    left: 50%;
+    transform: translate(-50%);
+    width: 85vw;
+    padding: 16px;
+    background: #332F64;
+    background: -moz-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+    background: -webkit-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+    background: linear-gradient(to right, #332F64 0%, #a52bd1 100%);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

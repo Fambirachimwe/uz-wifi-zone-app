@@ -1,10 +1,13 @@
 import React from 'react';
 import './signup-form.styles.scss';
+import {Link} from 'react-router-dom';
+import CustomButton from '../customButton/customButton.component';
+
 
 
 const SignUpForm = () => (
-    <div>
-    <a className="btn-floating  waves-effect waves-light  "><i class="material-icons">arrow_back</i></a>
+    <div className="signupform-page">
+    <Link className="btn-floating  waves-effect waves-light" to="/" ><i class="material-icons">arrow_back</i></Link>
 
     <div className="form">
         <h4 className="title">Signup</h4>
@@ -26,7 +29,9 @@ const SignUpForm = () => (
                         <label htmlFor="icon_telephone">Confirm password</label>
                     </div>
 
-                    <button className="signup-btn">Create account</button>
+                   
+
+                    <CustomButton>Create account</CustomButton>
                 </div>
             </form>
 

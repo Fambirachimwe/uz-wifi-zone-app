@@ -1,0 +1,40 @@
+.account-created{
+
+    position: relative;
+    // height: 100vh;
+    margin:150px 10px 10px 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+    .title{ 
+        
+        // font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: #373648c4;
+        margin-bottom: 20px;
+    }
+
+    button{
+        margin-top: 40px;
+        border: 0;
+        border-radius: 10px;
+    }
+    .account-created-btn{
+        position: relative;
+        // top: 60vh;
+        left: 50%;
+        transform: translate(-50%);
+        width: 85vw;
+        padding: 16px;
+        background: #332F64;
+        background: -moz-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+        background: -webkit-linear-gradient(left, #332F64 0%, #a52bd1 100%);
+        background: linear-gradient(to right, #332F64 0%, #a52bd1 100%);
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
