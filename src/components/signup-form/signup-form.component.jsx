@@ -13,17 +13,17 @@ const SignUpForm = () => (
                 <div className="row">
                     <div className="input-field col s12">
                         <input id="icon_prefix" type="text" className="validate"></input>
-                        <label for="icon_prefix">Email</label>
+                        <label htmlFor="icon_prefix">Email</label>
                     </div>
                     
                     <div className="input-field col s12">
                         <input id="icon_telephone" type="tel" className="validate"></input>
-                        <label for="icon_telephone">Password</label>
+                        <label htmlFor="icon_telephone">Password</label>
                     </div>
 
                     <div className="input-field col s12">
                         <input id="icon_telephone" type="tel" className="validate"></input>
-                        <label for="icon_telephone">Confirm password</label>
+                        <label htmlFor="icon_telephone">Confirm password</label>
                     </div>
 
                     <button className="signup-btn">Create account</button>
