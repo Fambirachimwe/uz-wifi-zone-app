@@ -1,6 +1,6 @@
 import React from 'react';
 import './signup.styles.scss';
-import signup_img from '../../img/signup.png';
+import signup_img from '../../img/signup.svg';
 
 import {Link} from 'react-router-dom';
 import CustomButton from '../customButton/customButton.component';
