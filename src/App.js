@@ -8,6 +8,9 @@ import AccountCreated from '../src/components/accountcreated/accountCreated.comp
 
 import Login from  '../src/components/login/login.component';
 
+import Homepage from '../src/components/Homepage/homepage.components';
+
+
 
 
 import './App.css';
@@ -29,6 +32,7 @@ function App() {
         <Route path="/signup-form" component={SignUpForm} />
         <Route path="/thankyou" component={AccountCreated} />
         <Route path="/login" component={Login} />
+        <Route path="/home" component={Homepage} />
 
         
       </div>
