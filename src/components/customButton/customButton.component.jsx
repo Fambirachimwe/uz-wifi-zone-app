@@ -4,9 +4,9 @@ import './customButton.styles.scss';
 
 
 
-const  CustomButton = ({children}) => (
+const  CustomButton = ({children, type}) => (
     <div className="custom-button">
-        <button className="custom-btn">
+        <button className="custom-btn" type={type}>
             {children}
         </button>
     </div>

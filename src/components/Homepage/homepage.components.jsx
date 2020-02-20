@@ -23,8 +23,8 @@ const Homepage = () => (
     <div className="homepage">
 
         <div className="header-box">
-            <div className="menu"> <i class="material-icons">menu</i> </div>
-            <div className="search"><i class="material-icons">search</i></div>
+            <div className="menu"> <i className="material-icons">menu</i> </div>
+            <div className="search"><i className="material-icons">search</i></div>
 
         </div>
       
@@ -39,13 +39,13 @@ const Homepage = () => (
 
         <div className="card">
             <div className="card-image">
-                <img src="https://images.freeimages.com/images/large-previews/c33/library-1482719.jpg" alt="Object image"/>
+                <img src="https://images.freeimages.com/images/large-previews/c33/library-1482719.jpg" alt="Object"/>
             </div>
             
 
             <div className="left">
                 <div className="title">
-                    <p>UZ Library  <i class="material-icons">location_on</i>  </p>
+                    <p>UZ Library  <i className="material-icons">location_on</i>  </p>
                     
                 </div>
 
