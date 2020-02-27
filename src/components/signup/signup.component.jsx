@@ -18,7 +18,7 @@ const SignUp = () => (
             {/* <Link to="#"  onClick={signInWithGoogle}> <CustomButton >Signin with Google</CustomButton> </Link> */}
 
             {/* <CustomButton onClick={signInWithGoogle}>Signin with Google</CustomButton> */}
-            <p className="terms">Terms of service</p>
+            <p className="terms">Already have account <Link to="/login" style={{color: "blue"}}>Signin</Link></p>
         </div>
     </div>
 );

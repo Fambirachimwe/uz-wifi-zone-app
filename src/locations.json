@@ -1,0 +1,31 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Fuculty of Science",
+            "latitude": -17.784370,
+            "longitude": 31.050708
+        },
+
+        {
+            "id": 2,
+            "name": "Stadium",
+            "latitude": -17.785688,
+            "longitude": 31.052285  
+        },
+
+        {
+            "id": 3,
+            "name": "Diamond Lecture Theatre",
+            "latitude": -17.782143,
+            "longitude": 31.052687
+        },
+
+        {
+            "id": 4,
+            "name": "NLT Parking Lot",
+            "latitude": -17.782991,
+            "longitude": 31.054281
+        }
+    ]
+}

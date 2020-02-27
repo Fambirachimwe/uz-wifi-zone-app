@@ -1,0 +1,66 @@
+.card{
+    position: absolute;
+
+    z-index: 3;    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90vw;
+    height: 90px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 23vh;
+    // background: linear-gradient(145deg, #d8d8d8, #ffffff);
+    box-shadow:  1px 1px 20px #201f1f, 
+         -1px -1px 20px #838181;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .card-image{
+
+        img{
+            
+            height: 100%;
+            border-radius: 10px 0px 0px 10px;
+            
+        }
+    }
+
+    .left{
+        padding-left: 15px;
+        padding-top: 10px;
+
+        .title p{
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        i{
+            display: inline-block;
+            color: red;
+            float: right;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+
+        .description{
+            margin-top: 10px;
+            margin-right: 10px;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            button{
+                position: relative;
+                padding: 7px 20px;
+                background: #ffffff;
+                border: 1px solid blue;
+
+               
+            }
+        }
+    }
+    
+    
+}

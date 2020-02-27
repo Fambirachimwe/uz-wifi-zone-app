@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import CustomButton from '../customButton/customButton.component'
 
-import {auth, createUserProfileDocument} from '../../firebase/firebase.utils';
+import {auth} from '../../firebase/firebase.utils';
 
 import { withRouter } from "react-router-dom";
 
