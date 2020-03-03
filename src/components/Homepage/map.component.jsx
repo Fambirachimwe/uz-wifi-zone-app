@@ -66,7 +66,7 @@ const Map = () => {
 
                         <div className="left">
                             <div className="title">                           
-                                <p>{selectedMark.name}  <i className="material-icons">location_on</i>  </p>
+                                <p>{selectedMark.name} </p>
                             </div>
 
                             <div className="description">

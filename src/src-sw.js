@@ -42,4 +42,4 @@ workbox.routing.registerRoute(  // caching other css and js files that are not c
     })
 );
 
-workbox.precaching.precacheAndRoute([{"revision":"ed9b0170c12acf55b35d30e4ed5427c0","url":"index.html"},{"revision":"33dbdd0177549353eeeb785d02c294af","url":"logo192.png"},{"revision":"917515db74ea8d1aee6a246cfbcc0b45","url":"logo512.png"},{"revision":"414b09c7b9a6af0531b27088b7cef071","url":"manifest.json"}]);
+workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);

@@ -8,10 +8,10 @@
     height: 90px;
     left: 50%;
     transform: translate(-50%);
-    bottom: 23vh;
+    bottom: 2vh;
     // background: linear-gradient(145deg, #d8d8d8, #ffffff);
-    box-shadow:  1px 1px 20px #201f1f, 
-         -1px -1px 20px #838181;
+    // box-shadow:  1px 1px 20px #201f1f, 
+    //      -1px -1px 20px #838181;
     border-radius: 10px;
     overflow: hidden;
 
@@ -52,6 +52,7 @@
             justify-content: space-between;
 
             button{
+                margin-top: 0;
                 position: relative;
                 padding: 7px 20px;
                 background: #ffffff;
